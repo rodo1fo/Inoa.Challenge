@@ -1,0 +1,8 @@
+using Inoa.Challenge.Console.Application.UseCases.NotificationUseCase.Models;
+
+namespace Inoa.Challenge.Console.Application.UseCases.NotificationUseCase.Abstractions;
+
+public interface IGenericSmtpApi
+{
+    void SendEmail(NotificationModel model);
+}
